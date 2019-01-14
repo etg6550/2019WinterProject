@@ -20,7 +20,7 @@
 > 프로퍼티의 키를 사용하여 특정한 값을 호출. 키를 정확히 입력해야 하며 값이 없을 경우 예외 처리
 yaml파일의 하나씩 값을 가져올때
 
-### SpEL(스프링 표현 언어Spring Expression Language)
+### SpEL(스프링 표현 언어 Spring Expression Language)
 > SpEL은 런타임에 객체 참조에 대해 질의하고 조작하는 기능을 지원하는 언어
 
 ### POJO (Plain Old Java Object)
@@ -41,7 +41,7 @@ Spring bean : bean container에서 생성된 객체들
 ### bean container
 >컨테이너에 의해서 관리되고 어플리케이션의 핵심을 이루는 객체를 bean이라고한다
 ### bean
->spring IOC container에 의해서 instance화 되어 조립되거나 관리되는 객체
+>spring container, IOC container에 의해서 instance화 되어 조립되거나 관리되는 객체
 
 ### selectImports()
 >객체를 자동으로 생성해주는 메소드
