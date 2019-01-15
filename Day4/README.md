@@ -20,5 +20,5 @@
 [임]
 #### CRUD
 
-#### @Getter @Noargs, @Entity, @Table, @Id, @Column, @Builder, Serializable
-[숙제]
+#### KEYWORD Annotation
+[키워드](https://github.com/etg6550/2019WinterProject/tree/master/Day4/HomeWork)
