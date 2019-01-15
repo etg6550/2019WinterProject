@@ -21,4 +21,4 @@
 #### CRUD
 
 #### @Getter @Noargs, @Entity, @Table, @Id, @Column, @Builder, Serializable
-[엄]
+[숙제]
