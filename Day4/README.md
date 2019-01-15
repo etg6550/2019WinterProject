@@ -16,4 +16,9 @@
 [민]
 #### 타임리프, 템플릿, 템플릿 엔진
 [최]
+#### 의존 라이브러리
+[임]
 #### CRUD
+
+#### @Getter @Noargs, @Entity, @Table, @Id, @Column, @Builder, Serializable
+[엄]
