@@ -26,7 +26,7 @@
 ---
 > - 예를 들어 아래 생성자의 경우 지금 채워야할 필드가 무엇인지 명확히 지정할수가 없다
 
-<img src ="C:\Users\etg93\Desktop\Springboot\Day4\HomeWork\캡처.PNG"  width="300px">
+<img src ="캡처.PNG">
 
 > - 하지만 빌더를 사용하면 어느 필드에 어떤 값을 채워야 할지 명확하게 인지할 수 있다.
 
