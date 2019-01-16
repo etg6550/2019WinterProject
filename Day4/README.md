@@ -6,12 +6,6 @@
 등의 테스트가 가능
 > - 내장형 DB를 사용하여 실제 DB사용하지 않고, 테스트 DB로 테스트 할수 있다.
 
-#### @Entity
-
-#### @AutoConfigureTestDatabase
-
-#### @ActiveProfiles
-
 #### MVC pattern
 [민]
 #### 타임리프, 템플릿, 템플릿 엔진
@@ -19,6 +13,6 @@
 #### 의존 라이브러리
 [임]
 #### CRUD
-
+- Create, Read, Update, Delete
 #### KEYWORD Annotation
-[키워드](https://github.com/etg6550/2019WinterProject/tree/master/Day4/HomeWork)
+- [클릭](https://github.com/etg6550/2019WinterProject/tree/master/Day4/HomeWork)
