@@ -1,5 +1,8 @@
 ## TODAY's KEYWORD
-
+---
+#### Annotation
+> - 컴파일러가 알아보기위한 주석
+> - 인터페이스를 기반으로 한 어떠한 기능을 주입하는데 사용
 #### @DataJpaTest
 > - JPA관련 테스트 설정만 로드함.
 > - 데이터소스의 설정이 정상적인지, JPA를 사용하여 데이터를 제대로 생성, 수정, 삭제하는지
@@ -9,9 +12,9 @@
 #### MVC pattern
 - [클릭](https://github.com/ber01/Study-Spring-Boot/tree/master/keyword/MVC)
 #### 타임리프, 템플릿, 템플릿 엔진
-[최]
+- [클릭](https://github.com/rhkd4560/Study-SpringBoot/tree/master/Spring%204day/homework)
 #### 의존 라이브러리
-[임]
+- [클릭](https://github.com/dongh9508/Study-SpringBoot2/tree/master/keyword/LINK/dependency%20library)
 #### CRUD
 - Create, Read, Update, Delete
 #### KEYWORD Annotation
