@@ -8,7 +8,8 @@
 ####
 #### [처음으로 배우는 스프링부트2](http://www.hanbit.co.kr/store/books/look.php?p_code=B4458049183)
 ---
-### ==프로젝트를 하면서 각 KEYWORD 정리==
+### 프로젝트를 하면서 각 KEYWORD 정리
+####
 
 ##### **[STACK](https://github.com/etg6550/2019WinterProject/tree/master/Day1)**
 ##### **[키워드 One](https://github.com/etg6550/2019WinterProject/tree/master/Day5)**
@@ -16,7 +17,9 @@
 ##### **[키워드 Three](https://github.com/etg6550/2019WinterProject/tree/master/Day3)**
 ##### **[키워드 Four](https://github.com/etg6550/2019WinterProject/tree/master/Day4)**
 ---
-### ==프로젝트를 하면서 공부를 한것들==
+### 프로젝트를 하면서 공부를 한것들
+####
+
 |Day|공부한 내용들|
 |---|------------ |
 |Day**0**| **STACK** 알고리즘 |
