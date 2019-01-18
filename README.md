@@ -11,20 +11,22 @@
 ### 프로젝트를 하면서 각 KEYWORD 정리
 ####
 
-##### **[STACK](https://github.com/etg6550/2019WinterProject/tree/master/Day1)**
-##### **[키워드 One](https://github.com/etg6550/2019WinterProject/tree/master/Day5)**
-##### **[키워드 Two](https://github.com/etg6550/2019WinterProject/tree/master/Day2)**
-##### **[키워드 Three](https://github.com/etg6550/2019WinterProject/tree/master/Day3)**
-##### **[키워드 Four](https://github.com/etg6550/2019WinterProject/tree/master/Day4)**
+##### **[STACK algorithm](https://github.com/etg6550/2019WinterProject/tree/master/Day1)**
+##### **[각종 어노테이션 모음과 놓쳤던 KEYWORD들](https://github.com/etg6550/2019WinterProject/tree/master/Day5)**
+##### **[CH1~3 KEYWORD](https://github.com/etg6550/2019WinterProject/tree/master/Day2)**
+##### **[CH1~3 KEYWORD](https://github.com/etg6550/2019WinterProject/tree/master/Day3)**
+##### **[CH4 KEYWORD](https://github.com/etg6550/2019WinterProject/tree/master/Day4)**
+##### **[SpringBootSecurity와 Oauth2의 개념과 흐름도](https://github.com/etg6550/2019WinterProject/tree/master/Day6)**
 ---
 ### 프로젝트를 하면서 공부를 한것들
 ####
 
 |Day|공부한 내용들|
-|---|------------ |
-|Day**0**| **STACK** 알고리즘 |
-|Day**1**| application.yml생성 및 테스트 프로퍼티 값 추가 |
-|Day**2**| H2 Console 자동 설정 적용|
-|Day**3**| 각각의 어노테이션 알아보기|
-|Day**4**| 게시판 프로젝트 생성 및 도메인 매핑,테스트|
-|Day**5**| Service,Controller 클래스 생성, CommandLine언어를 이용해 DB에 데이터 넣음, 타임리프 사용|
+|---|------------|
+|Day**0**| **STACK 알고리즘** |
+|Day**1**| **application.yml생성 및 테스트 프로퍼티 값 추가** |
+|Day**2**| **H2 Console 자동 설정 적용**|
+|Day**3**| **각각의 어노테이션 알아보기**|
+|Day**4**| **게시판 프로젝트 생성 및 도메인 매핑,테스트**|
+|Day**5**| **Service,Controller 클래스 생성, CommandLine언어를 이용해 DB에 데이터 넣음, 타임리프 사용**|
+|Day**6**| **SpringBootSecurity, OAuth2의 개념과 설정하기, 개발자센터 연동하기(페이스북,구글,카카오)**|
