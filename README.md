@@ -17,6 +17,8 @@
 ##### **[CH1~3 KEYWORD](https://github.com/etg6550/2019WinterProject/tree/master/Day3)**
 ##### **[CH4 KEYWORD](https://github.com/etg6550/2019WinterProject/tree/master/Day4)**
 ##### **[SpringBootSecurity와 Oauth2의 개념과 흐름도](https://github.com/etg6550/2019WinterProject/tree/master/Day6)**
+##### **[CH5 어노테이션 모음과 객체들의 개념](https://github.com/etg6550/2019WinterProject/tree/master/Day7)**
+
 ---
 ### 프로젝트를 하면서 공부를 한것들
 ####
@@ -29,4 +31,5 @@
 |Day**3**| **각각의 어노테이션 알아보기**|
 |Day**4**| **게시판 프로젝트 생성 및 도메인 매핑,테스트**|
 |Day**5**| **Service,Controller 클래스 생성, CommandLine언어를 이용해 DB에 데이터 넣음, 타임리프 사용**|
-|Day**6**| **SpringBootSecurity, OAuth2의 개념과 설정하기, 개발자센터 연동하기(페이스북,구글,카카오)**|
+|Day**6**| **SpringBootSecurity, OAuth2의 개념과 의존성 설정하기, 개발자센터 연동하기(페이스북,구글,카카오)**|
+|Day**7**| **SpringSecurity, OAuth2설정, property바인딩**|
