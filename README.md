@@ -17,7 +17,7 @@
 ##### **[CH1~3 KEYWORD](https://github.com/etg6550/2019WinterProject/tree/master/Day3)**
 ##### **[CH4 KEYWORD](https://github.com/etg6550/2019WinterProject/tree/master/Day4)**
 ##### **[SpringBootSecurity와 Oauth2의 개념과 흐름도](https://github.com/etg6550/2019WinterProject/tree/master/Day6)**
-##### **[CH5 어노테이션 모음과 객체들의 개념](https://github.com/etg6550/2019WinterProject/tree/master/Day7)**
+##### **[CH5 어노테이션 모음과 각 종 객체들이 쓰이는 용도](https://github.com/etg6550/2019WinterProject/tree/master/Day7)**
 
 ---
 ### 프로젝트를 하면서 공부를 한것들
