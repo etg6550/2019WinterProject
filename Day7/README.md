@@ -1,6 +1,6 @@
 # Today's KEYWORD
 ---
-#### [각종 어노테이션 모음2](https://github.com/ber01/Study-Spring-Boot/tree/master/keyword/Annotation2)
+#### [클릭](https://github.com/ber01/Study-Spring-Boot/tree/master/keyword/Annotation2)
 > - @Service
 > - Pageable
 > - @Controller
@@ -15,10 +15,23 @@
 > - view내부의 변수와 바인딩(=매핑)
 
 #### singleton
-> - 여러가지의 쓰레드들 사이에서 하나의 공유자원만 사용하여 자원낭비를 줄이기 위한 디자인패턴 중 하나
+> - 여러가지의 쓰레드(processsor)들 사이에서 하나의 공유자원만 사용하여 자원낭비를 줄이기 위한 디자인패턴 중 하나
 
-#### [박]()
-
+#### [클릭](https://github.com/pdh6547/study-spring-boot/blob/master/Keyword/Homework/Annotaion%20and%20Interface.md)
+> - @NestedConfigurationProperty
+> - AuthorizationCodeResourceDetails
+> - ResourceServerProperties
+> - @Configuration
+> - 동기 / 비동기 통신
 #### [하]()
 
-#### [홍]()
+#### [클릭](https://github.com/woghd9072/study-spring-boot/tree/master/Keyword/Homework)
+> - @EnableOAuth2Client
+> - OAuth2ClientContext
+> - BasicAuthenticationFilter
+> - FilterRegistrationBean
+> - Filter
+> - CompositeFilter
+> - OAuth2ClientAuthenticationProcessingFilter 필터
+> - OAuth2RestTemplate
+> - UserInfoTokenServices 
