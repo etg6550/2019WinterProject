@@ -1,7 +1,7 @@
 facebook:
   client:
-    clientId: 360100334808600
-    clientSecret: 4c03e7672d4915fa663fe8f978381c6c
+    clientId: 
+    clientSecret: 
     accessTokenUri: https://graph.facebook.com/oauth/access_token
     userAuthorizationUri: https://www.facebook.com/dialog/oauth?display=popup
     tokenName: oauth_token
@@ -13,8 +13,8 @@ facebook:
 
 goodle:
   client:
-    clientId: 735222931288-dm5gl0fh466bh19ro55j474n5pkvpjev.apps.googleusercontent.com
-    clientSecret: wDLJwF58VyUpYcn8_QaT_fwT
+    clientId: 
+    clientSecret:
     accessTokenUri: https://accounts.google.com/o/oauth2/token
     userAuthorizationUri: https://accounts.google.com/o/oauth2/auth
     scope: email,profile
@@ -23,7 +23,7 @@ goodle:
 
 kakao:
   client:
-    clientId: 3f8ca4b2c5f4a60e99cff4b1677efb74
+    clientId: 
     accessTokenUri: https://kauth.kakao.com/oauth/token
     userAuthorizationUri: https://kauth.kakao.com/oauth/authorize
   resource:
