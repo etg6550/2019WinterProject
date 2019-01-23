@@ -18,7 +18,8 @@
 ##### **[CH4 KEYWORD](https://github.com/etg6550/2019WinterProject/tree/master/Day4)**
 ##### **[SpringBootSecurity와 Oauth2의 개념과 흐름도](https://github.com/etg6550/2019WinterProject/tree/master/Day6)**
 ##### **[CH5 어노테이션 모음과 각 종 객체들이 쓰이는 용도](https://github.com/etg6550/2019WinterProject/tree/master/Day7)**
-##### **[CH5 SpringBootSecurity와 Oauth2의 흐름도](https://github.com/etg6550/2019WinterProject/tree/master/Day8)**
+##### **[CH5 SpringBootSecurity와 Oauth2의 흐름도(~P127)](https://github.com/etg6550/2019WinterProject/tree/master/Day8)**
+##### **[CH5 ClientResources클래스와 security설정에 나온 어노테이션과 개념 정리(P128~P137)](https://github.com/etg6550/2019WinterProject/tree/master/Day9)**
 ---
 ### 프로젝트를 하면서 공부를 한것들
 ####
@@ -34,3 +35,4 @@
 |Day**6**| **SpringBootSecurity, OAuth2의 개념과 의존성 설정하기, 개발자센터 연동하기(페이스북,구글,카카오)**|
 |Day**7**| **SpringSecurity, OAuth2설정, property바인딩**|
 |Day**8**| **소셜미디어의 카카오,구글,페이스북 버튼생성 및 로그인화면 구현, 그리고 5장 다시 시작하기(이해가안됨)**|
+|Day**9**| **SocialType,User,ClientResources,Security설정 까지의 어노테이션과 개념들 정리**|
