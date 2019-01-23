@@ -1,3 +1,12 @@
+### MVC패턴
+> - model,view,controller로 이루어진 소프트웨어에서의 개발방법으로, 디자인패턴 중 하나
+### model
+> - model은 db나 파일과 같은 데이터를 제어하여 controller에게 결과값을 리턴해준다.
+### view
+> - view는 html/css/javascript들을 모아둔 컨테이너
+### controller
+> - controller은 클라이언트에서 url요청과 맞는 데이터를 model에게 주고 그 리턴값을 view에게 반영을 해서 클라이언트에게 시각화하여 보여준다.
+
 ### YAML  
 > 깊이에 따라 구분짓기 때문에 list, set, map등 다양한 바인딩형 매핑이 훨씬 간편
 
