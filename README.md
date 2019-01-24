@@ -20,6 +20,7 @@
 ##### **[CH5 어노테이션 모음과 각 종 객체들이 쓰이는 용도](https://github.com/etg6550/2019WinterProject/tree/master/Day7)**
 ##### **[CH5 SpringBootSecurity와 Oauth2의 흐름도(~P127)](https://github.com/etg6550/2019WinterProject/tree/master/Day8)**
 ##### **[CH5 ClientResources클래스와 security설정에 나온 어노테이션과 개념 정리(P128~P137)](https://github.com/etg6550/2019WinterProject/tree/master/Day9)**
+##### **[CH5 P140~141 어노테이션과 각 인터페이스,클래스들의 역할](https://github.com/etg6550/2019WinterProject/tree/master/Day10)**
 ---
 ### 프로젝트를 하면서 공부를 한것들
 ####
@@ -36,3 +37,4 @@
 |Day**7**| **SpringSecurity, OAuth2설정, property바인딩**|
 |Day**8**| **소셜미디어의 카카오,구글,페이스북 버튼생성 및 로그인화면 구현, 그리고 5장 다시 시작하기(이해가안됨)**|
 |Day**9**| **SocialType,User,ClientResources,Security설정 까지의 어노테이션과 개념들 정리**|
+|Day**10**|**권한부여코드요청응답, 로그인, 엑세스토큰요청응답 class 이해하기** |
