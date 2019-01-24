@@ -22,7 +22,7 @@
 ~~~java
 @Bean //사용자가 컨트롤 불가능 하면 외부 라이브러리에서 빈을 등록할떄 쓰는 어노테이션
   public FilterRegistrationBean oauth2ClientFilterRegistration(OAuth2ClientContextFilter filter) {//필터를 추가하기위해 쓰는 인터페이스, 파라미터 : 요청처리동안에 인증을 필요하는 경우 Ouath2 redirect url을 관리한다
-      FilterRegistrationBean registration = new FilterRegistrationBean();
+      FilterRegistrationBean registration = new FilterRegistrationBean();//현재 요청과 컨텍스트를 저장하는 필터 빈
       registration.setFilter(filter); // 우선순위를 정해줌
       registration.setOrder(-100);
       return registration;
