@@ -23,7 +23,14 @@
 > - ResourceServerProperties
 > - @Configuration
 > - 동기 / 비동기 통신
-#### [하]()
+
+#### [클릭](https://github.com/hagome0/Study-Spring-Boot/tree/master/keyword/Annotaion%20and%20Interface2)
+> - @EnableWebSecurity
+> - WebSecurityConfigurerAdapter
+> - HttpServletRequest
+> - XFrameOptionsHeaderWriter
+> - CharacterEncodingFilter
+> - CsrfFilter
 
 #### [클릭](https://github.com/woghd9072/study-spring-boot/tree/master/Keyword/Homework)
 > - @EnableOAuth2Client
@@ -34,4 +41,4 @@
 > - CompositeFilter
 > - OAuth2ClientAuthenticationProcessingFilter 필터
 > - OAuth2RestTemplate
-> - UserInfoTokenServices 
+> - UserInfoTokenServices
