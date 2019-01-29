@@ -39,3 +39,4 @@
 |Day**9**| **SocialType,User,ClientResources,Security설정 까지의 어노테이션과 개념들 정리**|
 |Day**10**|**권한부여코드요청응답, 로그인, 엑세스토큰요청응답 class 이해하기** |
 |Day**11**|**MySQL 런타임 의존성 추가, yml설정**|
+|Day**12**|**Mysql yml, 의존성 추가, 디렉토리구조 만들기, CORS적용하기**|
