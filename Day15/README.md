@@ -1,4 +1,4 @@
-## 5장
+## 5장 외워보기
 ---
 
 #### SocialType.java
@@ -80,27 +80,55 @@ public class ClientResources {//yml파일의 리소스 정보를 객체로 매�
   public ResourceServerProperties getResource() {return resource;}
 }
 ~~~
-#### SecurityCinfig.java
+#### SecurityConfig.java
 ~~~java
 @Configuration
-public class SecurityConfig {
+@EnableWebSecurity //웹에서 시큐리티 기능 사용하겠다는 어노테이션
+public class SecurityConfig extends WebSecurityConfigureAdapter { //최적화설정
+  //P136~137 시큐리티 설정
+  @Override
+  protected void configure(HttpSecurity http) throws Expection { //
+    http
+      .authorizeRequests()
+        .antMatchers("/", "/css/**", "/login/**", "/console/**", "/images/**", "/console **").permitAll() // 패턴을 리스트형식으로 설정, 누구든지 접근이 가능함
+      .anyRequest().authenticated() //이외의 요청들은 인증된 사용자만 접근 가능
+    .and()
+      .headers().frameOptions().disable() //응답에 해당하는 header를 설정
+    .and()
+      .exceptionHandling() // 로그인화면으로 되돌아온다
+      .authenticatedEntryPoint(new LoginUrlAuthenticationEntryPoint("/login")) // url설정한 /login으로 설정
+    .and()
+      .formLogin()
+      .syccessForwardUrl("/board/list") // 로그인을 성공적으로 하였다면 url설정한 /board/list로 설정
+    .and()
+      .logout() //로그아웃에 대한 설정
+      .logoutUrl("/logout") //로그아웃 url
+      .logoutSuccessUrl("/login") //로그아웃 성공했을때 다음으로 넘어갈 url
+      .deleteCookies("JSESSIONID") //쿠키 삭제
+      .invalidateHttpSession(true) // 세션 무효화
+    .and()
+      .addFilterBefore(filter, CsrfFilter.class) //문자인코딩보다 보안필터를 우선순위로 둔다
+      .csrf().disable();
+  }
 
+
+  //p135 접두사형으로 각 소셜미디어 하위값 매핑하고 빈으로 등록
   @Bean
   @ConfigurationProperties("facebook")
-  public ClientResource facebook() {
+  public ClientResources facebook() {
     return ClientResource;
   }
 
   @Bean
   @ConfigurationProperties("google")
-  public ClientResource google() {
+  public ClientResources google() {
     return ClientResource;
   }
 
   @Bean //사용자가 컨트롤이 불가능한 외부라이브러리를 빈으로 등록하고싶을때
   @ConfigurationProperties("kakao") //접두사형 하위 키값을 매핑
-  public ClientResource kakao() {
-    return ClientResource; 
+  public ClientResources kakao() {
+    return ClientResource;
   }
-
 }
+~~~
