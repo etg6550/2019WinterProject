@@ -161,7 +161,7 @@ public class BoardController {
   @Autowired //boardService 의존성 주입
   BoardService boardService;
 
-  @GetMapping("", "/") //매핑 경로를 여러개로 줄수있다.
+  @GetMapping({"", "/"}) //중괄호를 이용하여 매핑 경로를 여러개로 줄수있다.
   public String board(@RequestParam(value = "idx", defaultValue = "0") Long idx,
     Model model) { //idx파라미터를 필수로 받고, 디폴트값 0(null)
       model.addAttribute("board", boardService.findBoardByIdx(idx));
