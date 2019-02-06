@@ -90,16 +90,16 @@ public class SecurityConfig extends WebSecurityConfigureAdapter { //최적화설
   protected void configure(HttpSecurity http) throws Expection { //
     http
       .authorizeRequests()
-        .antMatchers("/", "/css/**", "/login/**", "/console/**", "/images/**", "/console **").permitAll() // 패턴을 리스트형식으로 설정, 누구든지 접근이 가능함
+        .antMatchers("/", "/css/**", "/login/**", "/js/**", "/images/**", "/console **").permitAll() // 패턴을 리스트형식으로 설정, 누구든지 접근이 가능함
       .anyRequest().authenticated() //이외의 요청들은 인증된 사용자만 접근 가능
     .and()
       .headers().frameOptions().disable() //응답에 해당하는 header를 설정
     .and()
       .exceptionHandling() // 로그인화면으로 되돌아온다
-      .authenticatedEntryPoint(new LoginUrlAuthenticationEntryPoint("/login")) // url설정한 /login으로 설정
+      .authenticationEntryPoint(new LoginUrlAuthenticationEntryPoint("/login")) // url설정한 /login으로 설정
     .and()
       .formLogin()
-      .syccessForwardUrl("/board/list") // 로그인을 성공적으로 하였다면 url설정한 /board/list로 설정
+      .successForwardUrl("/board/list") // 로그인을 성공적으로 하였다면 url설정한 /board/list로 설정
     .and()
       .logout() //로그아웃에 대한 설정
       .logoutUrl("/logout") //로그아웃 url
