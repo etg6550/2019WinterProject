@@ -41,3 +41,4 @@
 |Day**12**|**Mysql yml, 의존성 추가, 디렉토리구조 만들기, CORS적용하기**|
 |Day**13,14**|**따로공부(Mysql cmd 명령어, 4장까지코드외우면서 이해하기)  [```4장코드```](https://github.com/etg6550/2019WinterProject/tree/master/Day13%2C14)**|
 |Day**15**|**따로공부(5장 어느정도 외우면서 이해하기) [```5장코드```](https://github.com/etg6550/2019WinterProject/tree/master/Day15)**|
+|Day**16**|**6장까지 코딩하기**
