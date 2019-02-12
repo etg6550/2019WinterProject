@@ -42,3 +42,4 @@
 |Day**13,14**|**따로공부(Mysql cmd 명령어, 4장까지코드외우면서 이해하기)  [```4장코드```](https://github.com/etg6550/2019WinterProject/tree/master/Day13%2C14)**|
 |Day**15**|**따로공부(5장 어느정도 외우면서 이해하기) [```5장코드```](https://github.com/etg6550/2019WinterProject/tree/master/Day15)**|
 |Day**16**|**6장까지 코딩하기**|
+|Day**17**|**client가 board/list, board/{idx}를 서버에 요청할때와 게시판 등록을 할때의 과정들**|
