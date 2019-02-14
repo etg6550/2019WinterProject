@@ -43,4 +43,4 @@
 |Day**15**|**따로공부(5장 어느정도 외우면서 이해하기) [```5장코드```](https://github.com/etg6550/2019WinterProject/tree/master/Day15)**|
 |Day**16**|**6장까지 코딩하기**|
 |Day**17**|**client가 board/list, board/{idx}를 서버에 요청할때와 게시판 등록을 할때의 과정들**|
-|Day**18**|**쿼리문으로 >> idx 역정렬하기, 리스트 pageable없이 다띄우기, 역순으로 다띄우기 [```코드```]()**|
+|Day**18**|**쿼리문으로 >> idx 역정렬하기, 리스트 pageable없이 다띄우기, 역순으로 다띄우기 [```코드```](https://github.com/etg6550/2019WinterProject/tree/master/Day18)**|
